@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 import com.codepath.debuggingchallenges.R;
 
@@ -34,5 +35,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void launchToolbarActivity(View view) {
         launchActivity(ToolbarActivity.class);
+    }
+
+    public void launchSearchHistoryActivity(View view) {
+        Toast.makeText(this, "There is no such activity", Toast.LENGTH_SHORT).show();
     }
 }
