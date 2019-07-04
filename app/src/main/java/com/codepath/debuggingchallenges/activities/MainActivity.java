@@ -37,7 +37,4 @@ public class MainActivity extends AppCompatActivity {
         launchActivity(ToolbarActivity.class);
     }
 
-    public void launchSearchHistoryActivity(View view) {
-        Toast.makeText(this, "There is no such activity", Toast.LENGTH_SHORT).show();
-    }
 }
